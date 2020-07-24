@@ -423,12 +423,27 @@ header {
       padding: 10px 18px;
       border: 2px solid $light-pink;
       transition: 0.3s ease;
-      &:hover {
-        @include tablet {
+      position: relative;
+        &::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
           background-color: $light-pink;
-          color: #fff;
+          bottom: 0;
+          width: 0;
+          transition: .3s ease;
+          z-index: -1; 
         }
-      }
+        &:hover { 
+          @include tablet {
+            color: #fff;
+          &::before {
+            width: 100%;
+          }
+          }
+          
+        }
       @include mobile {
         border: unset;
         color: #130f49;
@@ -614,9 +629,23 @@ header {
         transition: 0.3s ease;
         margin-top: 50px;
         padding: 15px 30px;
-        &:hover {
+        position: relative;
+        &::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
           background-color: $light-pink;
+          bottom: 0;
+          width: 0;
+          transition: .3s ease;
+          z-index: -1;
+        }
+        &:hover { 
           color: #fff;
+          &::before {
+            width: 100%;
+          }
         }
       }
     }

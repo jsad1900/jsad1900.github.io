@@ -754,12 +754,28 @@ header .menu a.blog {
   border: 2px solid #f8a8ab;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
+  position: relative;
+}
+
+header .menu a.blog::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #f8a8ab;
+  bottom: 0;
+  width: 0;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  z-index: -1;
 }
 
 @media only screen and (min-width: 767px) {
   header .menu a.blog:hover {
-    background-color: #f8a8ab;
     color: #fff;
+  }
+  header .menu a.blog:hover::before {
+    width: 100%;
   }
 }
 
@@ -1034,11 +1050,28 @@ header .menu a.blog {
   transition: 0.3s ease;
   margin-top: 50px;
   padding: 15px 30px;
+  position: relative;
+}
+
+#content #iam .content-iam a.cv::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #f8a8ab;
+  bottom: 0;
+  width: 0;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  z-index: -1;
 }
 
 #content #iam .content-iam a.cv:hover {
-  background-color: #f8a8ab;
   color: #fff;
+}
+
+#content #iam .content-iam a.cv:hover::before {
+  width: 100%;
 }
 
 @media only screen and (min-width: 767px) {
