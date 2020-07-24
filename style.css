@@ -552,7 +552,7 @@ a {
   text-decoration: unset;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 769px) {
   .container {
     width: unset;
   }
@@ -576,7 +576,7 @@ header {
   padding: 10px 0;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 769px) {
   header > div {
     position: relative;
   }
@@ -587,7 +587,7 @@ header .logo img {
   height: auto;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 769px) {
   header .logo img {
     width: 60px;
   }
@@ -602,7 +602,7 @@ header .mobile-click {
   top: calc(50% - 7px);
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 769px) {
   header .mobile-click {
     display: none;
   }
@@ -679,11 +679,11 @@ header .menu {
   font-size: 15px;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 769px) {
   header .menu {
     position: absolute;
     right: 0;
-    background: #d9f4ff;
+    background: #130f49;
     display: block;
     top: 100%;
     width: 100vw;
@@ -709,7 +709,7 @@ header .menu ul {
           align-items: center;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 769px) {
   header .menu ul {
     display: block;
   }
@@ -734,18 +734,18 @@ header .menu ul li a::before {
   transition: 0.3s ease;
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 769px) {
   header .menu ul li a:hover::before {
     visibility: visible;
     width: 90%;
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 769px) {
   header .menu ul li a {
     padding: 17px;
     display: block;
-    color: #130f49;
+    color: #fff;
   }
 }
 
@@ -770,7 +770,7 @@ header .menu a.blog::before {
   z-index: -1;
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 769px) {
   header .menu a.blog:hover {
     color: #fff;
   }
@@ -779,10 +779,10 @@ header .menu a.blog::before {
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 769px) {
   header .menu a.blog {
     border: unset;
-    color: #130f49;
+    color: #fff;
     padding: 17px;
     display: block;
   }
@@ -885,7 +885,7 @@ header .menu a.blog::before {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 769px) {
   .star {
     top: unset;
     bottom: 50px;
@@ -907,7 +907,7 @@ header .menu a.blog::before {
   padding-top: 0px;
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 769px) {
   #content {
     padding-top: 50px;
   }
@@ -934,7 +934,7 @@ header .menu a.blog::before {
   margin-bottom: 40px;
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 769px) {
   #content #iam {
     padding: 0px 0;
     background-size: 72%;
@@ -955,10 +955,11 @@ header .menu a.blog::before {
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 769px) {
   #content #iam {
     background-position: -71px 79px;
     background-size: 100%;
+    background: unset;
   }
 }
 
@@ -969,7 +970,7 @@ header .menu a.blog::before {
   }
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 769px) {
   #content #iam {
     margin-top: 40px;
   }
@@ -986,7 +987,7 @@ header .menu a.blog::before {
   padding: 15px 0;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 769px) {
   #content #iam .title-iam .title-2 {
     font-size: 40px;
   }
@@ -1006,7 +1007,7 @@ header .menu a.blog::before {
   padding-bottom: 15px;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 769px) {
   #content #iam .title-iam .title-3 {
     font-size: 40px;
     letter-spacing: 5px;
@@ -1024,7 +1025,7 @@ header .menu a.blog::before {
   max-width: 550px;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 769px) {
   #content #iam .content-iam {
     max-width: unset;
   }
@@ -1068,17 +1069,16 @@ header .menu a.blog::before {
   width: 100%;
 }
 
-@media only screen and (min-width: 767px) {
-  #content #gioithieu {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    min-height: 100vh;
-    max-height: 1000px;
-  }
+#content #gioithieu {
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  max-height: 1000px;
 }
 
 #content #gioithieu .gioithieu__content .content__box .box__title {
@@ -1098,7 +1098,7 @@ header .menu a.blog::before {
   position: absolute;
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 769px) {
   #content #gioithieu .gioithieu__content .content__box .box__title::before {
     content: "";
   }
@@ -1133,7 +1133,7 @@ header .menu a.blog::before {
   position: relative;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 769px) {
   #content #gioithieu .gioithieu__content .content__picture span {
     width: 200px;
     height: 200px;
@@ -1166,7 +1166,7 @@ header .menu a.blog::before {
   width: 100%;
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 769px) {
   #content #kynang {
     min-height: 100vh;
     max-height: 1000px;
@@ -1191,7 +1191,7 @@ header .menu a.blog::before {
   position: absolute;
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 769px) {
   #content #kynang .box__title::before {
     content: "";
   }
@@ -1213,7 +1213,7 @@ header .menu a.blog::before {
   background: #d9f4ff;
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 769px) {
   #content #kynang .kynang__content::before {
     content: "";
   }
@@ -1229,7 +1229,7 @@ header .menu a.blog::before {
   background: #eaf8fe;
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 769px) {
   #content #kynang .kynang__content::after {
     content: "";
   }
@@ -1239,6 +1239,7 @@ header .menu a.blog::before {
   text-align: center;
   font-size: 19px;
   color: #f8a8ab;
+  padding-bottom: 20px;
   text-transform: uppercase;
 }
 
@@ -1281,7 +1282,7 @@ header .menu a.blog::before {
   padding: 30px 0;
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 769px) {
   #content #congviec {
     min-height: 100vh;
     max-height: 1000px;
@@ -1307,7 +1308,7 @@ header .menu a.blog::before {
   position: absolute;
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 769px) {
   #content #congviec .box__title::before {
     content: "";
   }
@@ -1320,7 +1321,7 @@ header .menu a.blog::before {
   max-width: 750px;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 769px) {
   #content #congviec .congviec__content {
     padding: 30px;
   }
@@ -1337,7 +1338,7 @@ header .menu a.blog::before {
   background: #d9f4ff;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 769px) {
   #content #congviec .congviec__content::before {
     content: unset;
   }
@@ -1354,7 +1355,7 @@ header .menu a.blog::before {
   background: #eaf8fe;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 769px) {
   #content #congviec .congviec__content::after {
     content: unset;
   }
@@ -1387,7 +1388,7 @@ header .menu a.blog::before {
   padding: 30px 0;
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 769px) {
   #content #duan {
     padding: 50px 0;
   }
@@ -1418,7 +1419,7 @@ header .menu a.blog::before {
   position: absolute;
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 769px) {
   #content #duan .duan__title .title__1 span::before {
     content: "";
   }
@@ -1432,7 +1433,7 @@ header .menu a.blog::before {
   padding: 50px 0;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 769px) {
   #content #duan .duan__content .duan {
     padding: 20px 0 40px;
   }
@@ -1457,7 +1458,7 @@ header .menu a.blog::before {
   left: calc(100% + 20px);
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 769px) {
   #content #duan .duan__content .duan:nth-child(2n) > .row .right__box {
     margin: 0 -90px 0 -0 !important;
   }
@@ -1485,7 +1486,7 @@ header .menu a.blog::before {
   position: absolute;
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 769px) {
   #content #duan .duan__content .duan .content__right .right__title span::before {
     content: "";
   }
@@ -1512,7 +1513,7 @@ header .menu a.blog::before {
           align-items: center;
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 769px) {
   #content #duan .duan__content .duan .content__right .right__content .right__box {
     margin: 0 0 0 -90px;
   }
@@ -1571,7 +1572,7 @@ header .menu a.blog::before {
   text-align: center;
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 769px) {
   #content #lienhe .lienhe__content {
     width: 50%;
     padding: 40px 50px;
@@ -1688,7 +1689,7 @@ h2.box__title::before {
   background: -webkit-linear-gradient(360deg, #8ac0ff 0%, #2c75c9 100%);
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 769px) {
   .light .menu {
     background: #fff;
   }
@@ -1702,7 +1703,7 @@ h2.box__title::before {
   background-repeat: no-repeat;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 769px) {
   .light #content #iam {
     background: #fff;
   }

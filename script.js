@@ -37,6 +37,10 @@ $(document).ready(function () {
 			$(".menu").toggleClass("open-menu");
 			$(".mobile-click span").toggleClass("closed");
 		})
+		$("header .menu ul li a").click(function(){
+			$(".menu").removeClass("open-menu");
+			$(".mobile-click span").removeClass("closed");
+		})
 	}
 
 	$(".star").click(function(){

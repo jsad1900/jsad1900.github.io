@@ -206,8 +206,8 @@ $inter: "Inter", Arial, Helvetica, sans-serif;
 $mono: "SF Mono Regular", Arial, Helvetica, sans-serif;
 
 //@media
-$tablet: 767;
-$large: 1023;
+$tablet: 769;
+$large: 1025;
 $desktop: 1280;
 
 @mixin mobile {
@@ -370,7 +370,7 @@ header {
     @include mobile {
       position: absolute;
       right: 0;
-      background: #d9f4ff;
+      background: $light-background;
       display: block;
       top: 100%;
       width: 100vw;
@@ -414,7 +414,7 @@ header {
           @include mobile {
             padding: 17px;
             display: block;
-            color: #130f49;
+            color: #fff;
           }
         }
       }
@@ -446,7 +446,7 @@ header {
         }
       @include mobile {
         border: unset;
-        color: #130f49;
+        color: #fff;
         padding: 17px;
         display: block;
       }
@@ -547,7 +547,6 @@ header {
   #iam {
     margin-top: -20px;
     background-image: url(./picture/bg-dark.png);
-   
     background-repeat: no-repeat;
     @include tablet {
       padding: 0px 0;
@@ -564,14 +563,13 @@ header {
     @include mobile {
       background-position: -71px 79px;
       background-size: 100%;
+      background: unset;
     }
     @media (max-width: 600px) {
       background-size: 100%;
       background-position: -87px 123px;
     }
-    @media (max-width: 500px) {
-      
-    }
+ 
     display: flex;
     align-items: center;
     min-height: 100vh;
@@ -652,11 +650,13 @@ header {
   }
 
   #gioithieu {
-    @include tablet {
-      display: flex;
+    padding: 20px 0;
+    display: flex;
       align-items: center;
       min-height: 100vh;
       max-height: 1000px;
+    @include tablet {
+      
     }
     .gioithieu__content {
       .content__box {
@@ -777,6 +777,7 @@ header {
         text-align: center;
         font-size: 19px;
         color: $light-pink;
+        padding-bottom: 20px;
         text-transform: uppercase;
       }
       .content__content {
