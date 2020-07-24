@@ -969,12 +969,6 @@ header .menu a.blog::before {
   }
 }
 
-@media (max-width: 500px) {
-  #content #iam {
-    background: #d9f4ff;
-  }
-}
-
 @media only screen and (min-width: 767px) {
   #content #iam {
     margin-top: 40px;
@@ -1631,7 +1625,7 @@ header .menu a.blog::before {
 footer {
   background: #4292ee;
   color: #fff;
-  padding: 10px 0;
+  padding: 8px 0;
   font-family: "SF Mono Regular", Arial, Helvetica, sans-serif;
   text-align: center;
   font-size: 13px;
