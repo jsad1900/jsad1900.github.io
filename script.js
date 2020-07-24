@@ -40,7 +40,7 @@ $(document).ready(function () {
 	}
 
 	$(".star").click(function(){
-		$("body").toggleClass("dark");
+		$("body").toggleClass("light");
 		$(".star i").toggleClass("fa-cloud-sun").toggleClass("fa-sun");
 	})
 });

@@ -4609,7 +4609,7 @@
     font-style:  normal;
     font-weight: 200;
     font-display: swap;
-    src: url("./webfonts/./webfonts/Inter-ExtraLight.woff2") format("woff2"),
+    src: url("./webfonts/Inter-ExtraLight.woff2") format("woff2"),
          url("./webfonts/Inter-ExtraLight.woff") format("woff");
   }
   @font-face {
@@ -4795,7 +4795,7 @@
 @font-face {
     font-family: 'SF Mono Regular';
     font-style: normal;
-    font-weight: normal;
+    font-weight: normal; 
     src: local('SF Mono Regular'), url('./webfonts/SFMonoRegular.woff') format('woff');
     }
     

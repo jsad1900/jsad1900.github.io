@@ -1,6 +1,6 @@
-@import url(c:\Users\Administrator\Desktop\NDanh.com\assets\font\inter.css);
-@import url(c:\Users\Administrator\Desktop\NDanh.com\assets\font\fontawesome.css);
-@import url(c:\Users\Administrator\Desktop\NDanh.com\assets\font\mono.css);
+@import url(c:\Users\Administrator\Documents\GitHub\jsad1900.github.io\assets\font\inter.css);
+@import url(c:\Users\Administrator\Documents\GitHub\jsad1900.github.io\assets\font\fontawesome.css);
+@import url(c:\Users\Administrator\Documents\GitHub\jsad1900.github.io\assets\font\mono.css);
 html,
 body,
 div,
@@ -538,9 +538,9 @@ table {
 
 body {
   font-size: 16px;
-  background-color: #fff;
+  background-color: #130f49;
   font-family: "Inter", Arial, Helvetica, sans-serif;
-  color: #130f49;
+  color: #fff;
   position: relative;
   overflow-x: hidden;
   -webkit-transition: 0.3s ease;
@@ -569,10 +569,10 @@ header {
   width: 100%;
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
-  background: #8ac0ff;
-  background: -webkit-gradient(linear, left bottom, left top, from(#8ac0ff), to(#2c75c9));
-  background: linear-gradient(360deg, #8ac0ff 0%, #2c75c9 100%);
-  background: -webkit-linear-gradient(360deg, #8ac0ff 0%, #2c75c9 100%);
+  background: #130f48;
+  background: -webkit-gradient(linear, left top, left bottom, from(#130f48), to(#1e186d));
+  background: linear-gradient(180deg, #130f48 0%, #1e186d 100%);
+  background: -webkit-linear-gradient(180deg, #130f48 0%, #1e186d 100%);
   padding: 10px 0;
 }
 
@@ -780,7 +780,7 @@ header .menu a.blog {
 #info .img-top {
   width: 1px;
   height: 50px;
-  background: #130f49;
+  background: #fff;
 }
 
 #info .left {
@@ -812,7 +812,7 @@ header .menu a.blog {
 }
 
 #info .left .mxh i {
-  color: #130f49;
+  color: #fff;
   font-size: 25px;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
@@ -844,7 +844,7 @@ header .menu a.blog {
 }
 
 #info .right .email a {
-  color: #130f49;
+  color: #fff;
   -webkit-writing-mode: tb-rl;
       -ms-writing-mode: tb-rl;
           writing-mode: tb-rl;
@@ -905,7 +905,7 @@ header .menu a.blog {
 
 #content #iam {
   margin-top: -20px;
-  background-image: url(./picture/bg-light.png);
+  background-image: url(./picture/bg-dark.png);
   background-repeat: no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1028,7 +1028,7 @@ header .menu a.blog {
   font-family: "SF Mono Regular", Arial, Helvetica, sans-serif;
   display: inline-block;
   font-weight: bold;
-  color: #130f49;
+  color: #fff;
   border: 2px solid #f8a8ab;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
@@ -1065,7 +1065,7 @@ header .menu a.blog {
 #content #gioithieu .gioithieu__content .content__box .box__title::before {
   width: 200px;
   height: 1px;
-  background: #130f49;
+  background: #fff;
   top: calc(50% - 1px);
   right: -215px;
   position: absolute;
@@ -1131,6 +1131,8 @@ header .menu a.blog {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 #content #kynang > .container {
@@ -1156,7 +1158,7 @@ header .menu a.blog {
 #content #kynang .box__title::before {
   width: 200px;
   height: 1px;
-  background: #130f49;
+  background: #fff;
   top: calc(50% - 1px);
   right: -215px;
   position: absolute;
@@ -1243,6 +1245,12 @@ header .menu a.blog {
 }
 
 #content #congviec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 30px 0;
 }
 
@@ -1266,7 +1274,7 @@ header .menu a.blog {
 #content #congviec .box__title::before {
   width: 200px;
   height: 1px;
-  background: #130f49;
+  background: #fff;
   top: calc(50% - 1px);
   right: -215px;
   position: absolute;
@@ -1460,6 +1468,7 @@ header .menu a.blog {
   padding: 15px 0;
   text-align: right;
   color: #98caf8;
+  font-family: "SF Mono Regular", Arial, Helvetica, sans-serif;
 }
 
 #content #duan .duan__content .duan .content__right .right__content .right__box {
@@ -1547,7 +1556,7 @@ header .menu a.blog {
 }
 
 #content #lienhe .lienhe__content .lienhe__mail a {
-  color: #130f49;
+  color: #fff;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
 }
@@ -1592,6 +1601,7 @@ footer {
   padding: 10px 0;
   font-family: "SF Mono Regular", Arial, Helvetica, sans-serif;
   text-align: center;
+  font-size: 13px;
   line-height: 25px;
 }
 
@@ -1613,97 +1623,116 @@ footer {
   }
 }
 
-.dark {
-  background: #130f49;
-}
-
-.dark * {
-  color: #fff;
-}
-
-.dark h2.box__title::before {
+h2.box__title::before {
   background: #fff !important;
 }
 
-.dark header {
-  background: #130f48;
-  background: -webkit-gradient(linear, left top, left bottom, from(#130f48), to(#1e186d));
-  background: linear-gradient(180deg, #130f48 0%, #1e186d 100%);
-  background: -webkit-linear-gradient(180deg, #130f48 0%, #1e186d 100%);
+.kynang__content,
+.congviec__content, .right__box, .lienhe__content {
+  background: #121035 !important;
+}
+
+.kynang__content::before,
+.congviec__content::before, .right__box::before, .lienhe__content::before {
+  background: #121035 !important;
+}
+
+.kynang__content:after,
+.congviec__content:after, .right__box:after, .lienhe__content:after {
+  background: #121035 !important;
+}
+
+.light {
+  background: #fff;
+}
+
+.light * {
+  color: #130f49;
+}
+
+.light .menu a {
+  color: #fff;
+}
+
+.light header {
+  background: #8ac0ff;
+  background: -webkit-gradient(linear, left bottom, left top, from(#8ac0ff), to(#2c75c9));
+  background: linear-gradient(360deg, #8ac0ff 0%, #2c75c9 100%);
+  background: -webkit-linear-gradient(360deg, #8ac0ff 0%, #2c75c9 100%);
 }
 
 @media only screen and (max-width: 767px) {
-  .dark .menu {
-    background: #130f49;
+  .light .menu {
+    background: #fff;
   }
-  .dark .menu ul li a {
-    color: #fff;
+  .light .menu ul li a {
+    color: #130f49;
   }
 }
 
-.dark #content #iam {
-  background-image: url(./picture/bg-dark.png);
+.light #content #iam {
+  background-image: url(./picture/bg-light.png);
   background-repeat: no-repeat;
 }
 
 @media only screen and (max-width: 767px) {
-  .dark #content #iam {
-    background: #130f49;
+  .light #content #iam {
+    background: #fff;
   }
 }
 
-.dark #content #iam a.cv {
-  color: #fff;
+.light #content #iam a.cv {
+  color: #130f49;
 }
 
-.dark #info .email a {
-  color: #fff;
+.light #info .email a {
+  color: #130f49;
 }
 
-.dark #info .email a:hover {
+.light #info .email a:hover {
   color: #4292ee !important;
 }
 
-.dark #info .left .mxh i {
-  color: #fff;
+.light #info .left .mxh i {
+  color: #130f49;
 }
 
-.dark #info .left .mxh i:hover {
+.light #info .left .mxh i:hover {
   color: #4292ee !important;
 }
 
-.dark #info .img-top {
-  background: #fff;
+.light #info .img-top {
+  background: #130f49;
 }
 
-.dark #congviec .vitri {
-  color: #fff !important;
+.light #congviec .vitri {
+  color: #130f49 !important;
 }
 
-.dark #duan .right__hagtag span {
+.light #duan .right__hagtag span {
   color: #85b0dc !important;
 }
 
-.dark .kynang__content,
-.dark .congviec__content, .dark .right__box, .dark .lienhe__content {
-  background: #0d0a36 !important;
+.light .kynang__content,
+.light .congviec__content, .light .right__box, .light .lienhe__content {
+  background: #d9f4ff !important;
 }
 
-.dark .kynang__content::before,
-.dark .congviec__content::before, .dark .right__box::before, .dark .lienhe__content::before {
-  background: #0d0a36 !important;
+.light .kynang__content::before,
+.light .congviec__content::before, .light .right__box::before, .light .lienhe__content::before {
+  background: #d9f4ff !important;
 }
 
-.dark .kynang__content:after,
-.dark .congviec__content:after, .dark .right__box:after, .dark .lienhe__content:after {
+.light .kynang__content:after,
+.light .congviec__content:after, .light .right__box:after, .light .lienhe__content:after {
   background: #121035 !important;
 }
 
-.dark .lienhe__mail a {
-  color: #fff !important;
+.light .lienhe__mail a {
+  color: #130f49 !important;
 }
 
-.dark .lienhe__mail a:hover {
+.light .lienhe__mail a:hover {
   color: #4292ee !important;
 }
 /*# sourceMappingURL=style.css.map */
