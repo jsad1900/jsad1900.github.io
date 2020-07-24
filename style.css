@@ -1378,7 +1378,7 @@ header .menu a.blog::before {
 }
 
 #content #congviec .congviec__content .vitri {
-  color: #4f4f4f;
+  color: #cacaca;
   line-height: 25px;
   padding-left: 25px;
   padding-bottom: 10px;
@@ -1758,7 +1758,7 @@ h2.box__title::before {
 
 .light .kynang__content:after,
 .light .congviec__content:after, .light .right__box:after, .light .lienhe__content:after {
-  background: #121035 !important;
+  background: #eaf8fe !important;
 }
 
 .light .lienhe__mail a {
