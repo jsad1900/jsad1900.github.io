@@ -551,7 +551,7 @@ header {
     @include tablet {
       padding: 0px 0;
       background-size: 72%;
-      background-position: -192px 10px;
+      background-position: -176px 10px;
     }
     @media (max-width: 1100px) {
       background-position: -87px 35px;
@@ -1068,7 +1068,8 @@ header {
   }
 }
 footer {
-  background: $light-blue;
+  background: $light-box;
+    
   color: #fff;
   padding: 8px 0;
   font-family: $mono;
@@ -1076,7 +1077,6 @@ footer {
   font-size: 13px;
   line-height: 25px;
 }
-
 @media (min-width: 992px) {
   .container {
     max-width: 920px;
@@ -1109,6 +1109,12 @@ h2.box__title::before {
   background: $dark-background;
   * {
     color: $dark-text;
+  }
+  footer {
+    background: $light-blue;
+   p {
+    color: #fff;
+   }
   }
   .menu a {
     color: #fff;

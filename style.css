@@ -938,7 +938,7 @@ header .menu a.blog::before {
   #content #iam {
     padding: 0px 0;
     background-size: 72%;
-    background-position: -192px 10px;
+    background-position: -176px 10px;
   }
 }
 
@@ -1624,7 +1624,7 @@ header .menu a.blog::before {
 }
 
 footer {
-  background: #4292ee;
+  background: #0d0a36;
   color: #fff;
   padding: 8px 0;
   font-family: "SF Mono Regular", Arial, Helvetica, sans-serif;
@@ -1676,6 +1676,14 @@ h2.box__title::before {
 
 .light * {
   color: #130f49;
+}
+
+.light footer {
+  background: #4292ee;
+}
+
+.light footer p {
+  color: #fff;
 }
 
 .light .menu a {
