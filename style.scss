@@ -745,6 +745,7 @@ header {
         font-size: 19px;
         color: $light-pink;
         text-transform: uppercase;
+        padding: 0px 0 20px;
       }
       .content__content {
         display: flex;
@@ -1035,6 +1036,7 @@ footer {
   color: #fff;
   padding: 10px 0;
   font-family: $mono;
+  font-size: 13px;
   text-align: center;
   line-height: 25px;
 }
